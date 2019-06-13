@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="bor-app" lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css%>">
+    <link rel="stylesheet" href="style.css">
+    <title>Bankia</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+
+    <bankia-cita-previa></bankia-cita-previa>
+
+    <script src="<%=htmlWebpackPlugin.files.chunks.main.entry%>"></script>
+</body>
+
+</html>

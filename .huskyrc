@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "pre-commit": "npm run build && git add -A ./umd/* && git add -A  ./public/assets/i18n/*"
+  }
+}

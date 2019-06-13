@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+h1.title{
+    margin-top: 50px;
+    font-size: 35px;
+    padding: 10px;
+    
+}
+label{
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 10px;
+
+}
+div.error{
+    color:red;
+    font-size: 12px;
+    padding: 0 10px;
+}
+input{
+    padding: 0 10px;
+}
+button.btn{
+    margin: 50px 0;
+    background:#ddd;
+    color:black;
+}
+h4{
+    padding: 10px;
+    text-decoration: underline;
+}
+div.button{
+    text-align: center;
+}
+button.btn:hover{
+    margin: 50px 0;
+    background:black;
+    color:#ddd;
+}
