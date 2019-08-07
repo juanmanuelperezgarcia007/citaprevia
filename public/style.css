@@ -1,10 +1,14 @@
 *{
     margin: 0;
 }
+.none{
+    display: none
+}
 h1.title{
     margin-top: 50px;
     font-size: 35px;
-    padding: 10px;
+    padding: 30px 10px 10px 10px;
+    text-align: center
     
 }
 label{
@@ -18,23 +22,44 @@ div.error{
     font-size: 12px;
     padding: 0 10px;
 }
-input{
+/* input{
     padding: 0 10px;
+} */
+input.invalid{
+    border-color:red
 }
 button.btn{
     margin: 50px 0;
     background:#ddd;
     color:black;
+    font-weight: bolder
 }
 h4{
-    padding: 10px;
+    padding-left: 50px;
     text-decoration: underline;
 }
 div.button{
     text-align: center;
+    
 }
 button.btn:hover{
     margin: 50px 0;
     background:black;
     color:#ddd;
+    
+}
+.contenedor{
+    width: 80%;
+    margin:25px auto;
+    box-shadow: 3px 3px 10px 1px rgba(102,102,102,.5);
+}
+.row{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center
+}
+hr{
+    width: 90%;
+   margin: 0 auto;
+    background: black
 }
